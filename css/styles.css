@@ -3626,7 +3626,7 @@ img.u-pull-left {
 
 .folio-list__item-link:focus .folio-list__item-pic::before,
 .folio-list__item-link:hover .folio-list__item-pic::before {
-    opacity    : 1;
+    opacity    : 0;
     visibility : visible;
 }
 
@@ -3681,7 +3681,7 @@ img.u-pull-left {
 .folio-list__item-pic::after {
     z-index     : 2;
     display     : block;
-    content     : "+";
+    content     : "";
     font-family : var(--font-1);
     font-weight : 300;
     font-size   : 2.2rem;
